@@ -1,0 +1,21 @@
+.carsoul-img{
+    height: 100vh; 
+    object-fit: cover; 
+    width: 100%;
+}
+.floating-content{
+    position: absolute;
+    top: 40%;
+    left: 100px;
+}
+p{
+    width: 300px;
+}
+button{
+    background-color: transparent;
+    border: 1px solid black;
+    padding: 10px;
+}
+.link-style{
+    color:#2c98f0 ;
+}

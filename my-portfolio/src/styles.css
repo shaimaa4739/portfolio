@@ -1,1 +1,58 @@
 /* You can add global styles to this file, and also import other style files */
+@import "~font-awesome/css/font-awesome.min.css";
+@import '~@angular/material/prebuilt-themes/indigo-pink.css';  
+
+html, body {
+    height: 100%;
+    margin: 0;
+  }
+  
+  .container-fluid {
+    height: 100%;
+  }
+ul{
+    list-style-type: none !important;
+    padding: 0 !important;
+}
+a{
+    text-decoration: none ;
+}
+.icon-w-h{
+    width: 20px;
+    height: 20px;
+}
+.grey-text{
+    margin-bottom: 15px;
+    display: block;
+    font-size: 10px;
+    text-transform: uppercase;
+    color: #999 !important;
+    font-weight: 500;
+    letter-spacing: 5px;
+    font-family: Quicksand, Arial, sans-serif;
+}
+.title{
+    font-size: 18px;
+    font-weight: 700;
+    text-transform: uppercase;
+    letter-spacing: 5px;
+    line-height: 1.8;
+    position: relative;
+    margin: 0 0 30px;
+    color: #000;
+    font-family: Playfair Display, Georgia, serif;
+}
+.about-text{
+    font-size: 15px;
+    line-height: 1.8;
+    color: #000000b3;
+    font-weight: bolder;
+}
+.desc{
+    font-family: Quicksand, Arial, sans-serif;
+    font-weight: 400;
+    font-size: 15px;
+    line-height: 1.8;
+    color: #000000b3;
+}
+

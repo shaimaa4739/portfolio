@@ -1,0 +1,23 @@
+.icon-w-h{
+    width: 40px !important;
+    height: 40px !important;
+}
+.card {
+    width: 192px;
+    margin-bottom: 80px;
+    position: relative;
+    z-index: 0;
+    box-shadow: 0 0 56px -8px #0000002b;
+    border: 0px;
+    padding: 1.5em;
+    border-radius: 0;
+}
+.card-b{
+    border-bottom: 3px solid #2c98f0;
+}
+.card-r{
+    border-bottom: 3px solid #ec5453;}
+.card-y{
+    border-bottom: 3px solid #f9bf3f;}
+.card-p{
+    border-bottom: 3px solid #a84cb8;}

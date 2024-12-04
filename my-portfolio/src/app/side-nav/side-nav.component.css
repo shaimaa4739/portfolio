@@ -1,0 +1,56 @@
+.profile-img{
+    width: 150px;
+    height: 150px;
+    border-radius: 200px;
+    background-image: url('/assets/img/about-BgAkqdr2.jpg');
+    background-size: cover;
+    background-repeat: no-repeat; 
+    background-position: center
+}
+.highlight-text{
+    color:#2c98f0 ;
+}
+ul{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+
+}
+.nav-link{
+    color: #000000b3;
+    width: fit-content;
+    text-align: center;
+}
+.router-link-active{
+    font-weight: 500;
+    color: #2c98f0 !important;
+}
+.nav-link {
+    position: relative;
+    
+    &:after {
+      content: '';
+      position: absolute;
+      bottom: -.4em;
+      left: 50%;
+      right: 50%;
+      height: 1px;
+      background: #2c98f0; 
+      transition: all ease .2s;
+    } 
+    
+    &:hover:after {
+      left: 0;
+      right: 0;
+      height: 1px;
+    } 
+    
+    &:before {
+      position: absolute;
+      transform: translateX(-100%);
+      left: -10px;
+      color: #eee;
+      opacity: .3;
+    }
+  }

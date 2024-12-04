@@ -1,0 +1,69 @@
+<div class="container-fliud">
+    <div class="col-7 d-flex flex-column align-items-star justify-content-center m-auto container py-5 mt-lg-0 mt-3 vh-100">
+        <span class="grey-text">
+            MY WORK
+        </span>
+        <h4 class="title">
+            RECENT WORK
+        </h4>
+
+        <div class="d-flex">
+
+            <p class="blue-text" >Graphic Designer</p>
+            <p class="mx-4" >Apps</p>
+            <p >Software</p>
+        </div>
+        <div class="row mb-4">
+            <div class="col-6">
+                <div class="image-container">
+                    <img src="../../assets/img/img-1-C4nS0eD8.jpg" alt="Sample Image" />
+                    <div class="overlay">
+                        <div class="content">
+                        <h3><a href="" class="white-text">Work</a></h3>
+                        <p class="opacity">Animation</p>
+                        <button class="color">Click Me</button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="col-6">
+                <div class="image-container">
+                    <img src="../../assets/img/img-2-D-4H1m4L.jpg" alt="Sample Image" />
+                    <div class="overlay">
+                        <div class="content">
+                        <h3>Title Text</h3>
+                        <button>Click Me</button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <button class="mb-4 width" (click)="show()">Show More</button>
+        
+        <div *ngIf="this.showdiv" class="row">
+            <div class="col-6">
+                <div class="image-container">
+                    <img src="../../assets/img/img-1-C4nS0eD8.jpg" alt="Sample Image" />
+                    <div class="overlay">
+                        <div class="content">
+                        <h3><a href="" class="white-text">Work</a></h3>
+                        <p class="opacity">Animation</p>
+                        <button class="color">Click Me</button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="col-6">
+                <div class="image-container">
+                    <img src="../../assets/img/img-2-D-4H1m4L.jpg" alt="Sample Image" />
+                    <div class="overlay">
+                        <div class="content">
+                        <h3>Title Text</h3>
+                        <button>Click Me</button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>

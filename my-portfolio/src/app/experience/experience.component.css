@@ -1,0 +1,55 @@
+.card-pos{
+    position: absolute;
+    left: -22px;
+}
+.card-pos-top-5{
+    top: 5%;
+
+}.card-pos-top-30{
+    top: 30%;
+
+}.card-pos-top-55{
+    top: 55%;
+
+}
+.vertical-line{
+    content: " ";
+    width: 3px;
+    background-color: #eee;
+    left: 3%;
+    margin-left: -1.5px;
+    height: 80%;
+}
+.grey-color{
+    color: rgb(190, 190, 190);
+}
+.timeline-badge{
+    width: 50px;
+    height: 50px;
+    line-height: 50px;
+    font-size: 1.4em;
+    text-align: center;
+    top: 16px;
+    left: 3%;
+    margin-right: 25px;
+    box-shadow: 0 0 0 5px #f2f3f7;
+    z-index: 100;
+    border-radius: 50%;
+}
+.timeline-badge svg{
+    width: 30px;
+    height: 30px;
+}
+.blue{    
+    background: #2c98f0;
+    }
+.red{    
+    background: #d9534f!important;
+
+
+}
+.yellow{    
+    background: #f0ad4e!important;
+
+
+}

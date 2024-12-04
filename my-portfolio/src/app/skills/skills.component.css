@@ -1,0 +1,112 @@
+.slidecontainer {
+    position: relative;
+    width: 100%;
+    margin: auto;
+  }
+
+  
+  .slider {
+    width: 100%;
+    height: 6px;
+    -webkit-appearance: none;
+    appearance: none;
+    border-radius: 5px;
+    background: white;
+    outline: none;
+    transition: background 0.2s ease;
+  }
+  
+  .progress-bar {
+    position: absolute;
+    top: 12px;
+    height: 6px;
+    border-radius: 5px;
+  }
+  
+  .circle {
+    position: absolute;
+    top: -10px;  
+    font-weight: 700;
+    left: 50%;
+    transform: translateX(-50%);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 14px;
+  }
+
+  .slider::-webkit-slider-thumb {
+    -webkit-appearance: none;
+    appearance: none;
+    width: 10px;
+    height: 10px;
+    border-radius: 50%;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+  }
+  .blue >.circle  {
+    color: #2c98f0;  
+
+}.red  >.circle  {
+    color: #ec5453;  
+
+}.yellow  >.circle  {
+    color: #f9bf3f;  
+
+}.green  >.circle  {
+    color: #2fa499;  
+
+}.purple  >.circle  {
+    color:  #a84cb8;  
+
+}.dark-blue  >.circle  {
+    color: #4054b2;  
+
+}
+.blue  >.slider::-webkit-slider-thumb,  .blue >.circle {
+    transform: translateX(115px) ;
+
+}
+.red  >.slider::-webkit-slider-thumb, .red  >.circle {
+    transform: translateX(50px) ;
+
+}
+.yellow  >.slider::-webkit-slider-thumb, .yellow  >.circle {
+    transform: translateX(160px);
+
+}
+.green  >.slider::-webkit-slider-thumb, .green  >.circle {
+    transform: translateX(180px);
+
+}
+.purple  >.slider::-webkit-slider-thumb, .purple  >.circle{
+    transform: translateX(95px);
+
+}
+.dark-blue  >.slider::-webkit-slider-thumb, .dark-blue  >.circle{
+    transform: translateX(140px);
+
+}
+  .blue >.progress-bar,  .blue  >.slider::-webkit-slider-thumb {
+    background: #2c98f0;  
+
+}.red .progress-bar, .red  >.slider::-webkit-slider-thumb {
+  background: #ec5453;  
+
+}.yellow .progress-bar, .yellow  >.slider::-webkit-slider-thumb {
+  background: #f9bf3f;  
+
+}.green .progress-bar, .green  >.slider::-webkit-slider-thumb{
+  background: #2fa499;  
+
+}.purple .progress-bar, .purple  >.slider::-webkit-slider-thumb{
+  background:  #a84cb8;  
+
+}.dark-blue .progress-bar, .dark-blue  >.slider::-webkit-slider-thumb{
+  background: #4054b2;  
+
+}
+
+p{
+    margin-bottom: 0 !important;
+}
